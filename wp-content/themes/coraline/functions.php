@@ -658,3 +658,9 @@ function coraline_set_full_content_width() {
 	if ( strstr( $layout, 'three-column' ) )
 		$content_width = 990;
 }
+
+
+/**
+ * PFZ: support for sub menu navigation
+ */
+include 'is-subpage.php';
